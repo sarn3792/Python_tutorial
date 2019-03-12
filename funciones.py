@@ -8,9 +8,10 @@ def factorial(numero):
 def suma(valor1, valor2):
 	return valor1 + valor2
 
-def multiplicacion(valor1, valor2):
+def multiplicacion(valor1, valor2 = 10):
 	return valor1 * valor2
 
+#Regresa array con múltiples valores
 def multiples_valores():
 	return "String", 1, True, 25.6
 
@@ -21,6 +22,9 @@ def palindromo():
 	nuevo_valor = frase.replace(" ", "")
 	return nuevo_valor == nuevo_valor[::-1]
 
+mi_variable = multiplicacion #puntero a la función
+resultado = mi_variable(6,8)
+print(resultado)
 """
 frase = "anita lava la tina"
 print(frase)
@@ -32,7 +36,7 @@ print(resultado)
 
 
 def valor_global():
-	global variable_global #Se modifica variable global. 
+	global variable_global #Se modifica variable global. Sin el global no se podría modificar el valor
 	variable_global = "Nuevo valor"
 
 variable_global = "Esto es una variable global"

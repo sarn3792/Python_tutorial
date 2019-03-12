@@ -4,7 +4,7 @@ if fruta == "kiwi" and fruta == "kiwi" :
 	print("El valor es kiwi")
 
 elif fruta == "manzana":
-	pass #Por si no se quiere poner dentro del if (dejarlo vacío)
+	pass #Para poner después lo que pasará si cae en el if
 
 else:
 	print("No es nada")

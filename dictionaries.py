@@ -11,8 +11,8 @@ del diccionario["a"] #Remueve llave y valor de la llave a
 #print(valor)
 #print(respuesta)
 
-llaves = list (diccionario.keys())
-values = list(diccionario.values())
+llaves = list(diccionario.keys()) #todas las llaves del diccionario
+values = list(diccionario.values()) #todos los valores del diccionario
 
 diccionario2 = {"z" : 23, "w" : 50}
 diccionario.update(diccionario2)

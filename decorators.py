@@ -33,4 +33,4 @@ def suma(num_uno, num_dos):
 #saluda()
 print(suma(10,5))
 
-#A, B, C son funciones. A recibe como parámetro B pero para poder crear C
+#A, B, C son funciones. A recibe como parámetro B para poder crear C
